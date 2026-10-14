@@ -1,0 +1,1 @@
+module.exports={content:['./index.html','./src/**/*.{js,jsx}'],theme:{extend:{fontFamily:{sans:['Inter','Satoshi','system-ui','sans-serif'],display:['"Clash Display"','Satoshi','sans-serif']}}},plugins:[]}

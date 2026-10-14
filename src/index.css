@@ -1,0 +1,8 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+html.lenis,html.lenis body{height:auto}.lenis.lenis-smooth{scroll-behavior:auto!important}
+body{color:#e7e7ee;font-family:Inter,Satoshi,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+.glass{background:linear-gradient(180deg,rgba(255,255,255,.07),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.09);backdrop-filter:blur(16px)}
+.grad-text{background:linear-gradient(90deg,#fff 0%,#5eead4 50%,#FF7A00 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.noise:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:60;opacity:.035;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.8'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+@keyframes aur{0%{transform:translate(0,0) scale(1)}50%{transform:translate(6%,-4%) scale(1.15)}100%{transform:translate(0,0) scale(1)}}
+@keyframes marq{to{transform:translateX(-50%)}}
